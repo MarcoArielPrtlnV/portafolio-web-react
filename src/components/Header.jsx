@@ -1,5 +1,6 @@
 import { Navbar, Nav } from "react-bootstrap";
 import { useState } from "react";
+import logoImg from '../assets/images/logo-mv-developer.png';
 
 
 const Header = () => {
@@ -22,7 +23,7 @@ const Header = () => {
             <Navbar.Brand href="#home" className="d-flex justify-content-center mx-auto">
 
                 <img 
-                    src="./logo-mv-developer.svg"
+                    src={logoImg}
                     alt="Logo MV Developer" 
                     className="header__logo img-fluid ms-3 me-3" 
                     width="120" 
