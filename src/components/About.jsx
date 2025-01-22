@@ -14,7 +14,7 @@ const About = () => {
                 <img src={aboutPhoto} alt="Tu Foto" />
                 <p>Durante mi formación profesional como ingeniero geofísico, he adquirido una sólida base en la participación de proyectos, trabajo en equipo y resolución de problemas. Estas habilidades me han permitido abordar desafíos complejos de manera eficiente y colaborar eficazmente con otros profesionales para alcanzar objetivos comunes. Mi experiencia en proyectos de ingeniería me ha enseñado a analizar datos, desarrollar soluciones innovadoras y gestionar el tiempo y los recursos de manera efectiva.
 
-                    Actualmente, me estoy enfocando en el desarrollo web frontend, aprendiendo cada día y adaptándome a las demandas y tendencias tecnológicas en constante evolución en el campo del diseño y desarrollo web del lado del cliente. Estoy comprometido a mejorar mis habilidades y conocimientos, utilizando mi experiencia previa para ofrecer soluciones creativas y funcionales que enriquezcan la experiencia del usuario y cumplan con los estándares actuales de la industria..</p>
+                    Actualmente, me estoy enfocando en el desarrollo web frontend, aprendiendo cada día y adaptándome a las demandas y tendencias tecnológicas en constante evolución en el campo del diseño y desarrollo web del lado del cliente. Estoy comprometido a mejorar mis habilidades y conocimientos, utilizando mi experiencia previa para ofrecer soluciones creativas y funcionales que enriquezcan la experiencia del usuario y cumplan con los estándares actuales de la industria.</p>
             </div>
 
             {/* Sección de Habilidades */}
