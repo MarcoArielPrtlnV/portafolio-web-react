@@ -1,0 +1,82 @@
+.about {
+    padding: 2rem;
+    background-color: #8EA3A6;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #343a40;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .about-content img {
+    max-width: 200px;
+    border-radius: 5%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  
+  .skills {
+    margin-bottom: 2rem;
+  }
+  
+  .skills h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #343a40;
+  }
+  
+  .skills-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .skills-icons svg {
+    color: #495057;
+  }
+  
+  .education {
+    margin-top: 2rem;
+  }
+  
+  .education h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #343a40;
+  }
+  
+  .education-content {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .education-item {
+    text-align: center;
+  }
+  
+  .education-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10%;
+    margin-bottom: 1rem;
+  }
+
+
+  
+  .education-item p {
+    font-size: 1rem;
+    color: #343a40;
+    
+  }
+  

@@ -1,0 +1,28 @@
+.footer {
+    background-color: #021526; /* Fondo claro para contraste */
+    color: #343a40; /* Texto oscuro para legibilidad */
+    padding: 1.5rem 0; /* Espaciado vertical */
+  }
+  
+  .footer p {
+    margin: 0; /* Sin margen */
+    font-size: 0.9rem; /* Tamaño de fuente más pequeño */
+    color: #6EACDA;
+  }
+  
+  .social-icons {
+    margin-top: 0.5rem; /* Espaciado entre el texto y los íconos */
+    display: flex;
+    justify-content: center; /* Centra los íconos */
+    gap: 1.5rem; /* Espaciado uniforme entre íconos */
+  }
+  
+  .icon-link {
+    color: #6EACDA; /* Color inicial de los íconos */
+    font-size: 1.5rem; /* Tamaño de los íconos */
+    transition: color 0.3s ease; /* Transición suave */
+  }
+  
+  .icon-link:hover {
+    color: #007bff; /* Cambia el color al pasar el mouse */
+  }

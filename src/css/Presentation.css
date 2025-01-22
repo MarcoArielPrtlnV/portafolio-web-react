@@ -1,0 +1,80 @@
+.presentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color:  #03346E;
+}
+  
+  .presentation-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+}
+  
+.text-content {
+    flex: 1;
+    margin-right: 2rem;
+}
+  
+  .text-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #6EACDA;
+}
+  
+  .text-content p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: #E2E2B6;
+}
+  
+.button-group {
+    display: flex;
+    gap: 1rem; 
+}
+  
+  .image-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+  
+  .presentation-photo {
+    max-width: 400px;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+
+@media (max-width: 768px) {
+.presentation-content {
+        flex-direction: column; 
+        align-items: center;
+        text-align: center;
+}
+
+.image-content {
+        order: -1; /* Mueve la imagen arriba */
+        margin-bottom: 1.5rem;
+}
+
+.text-content {
+        margin-right: 0;
+        margin-bottom: 1.5rem;
+}
+
+.button-group {
+        flex-direction: column; /* Los botones en columna */
+        gap: 1rem; /* Espacio entre botones */
+}
+
+.presentation-photo {
+        max-width: 300px; /* Ajusta el tamaño de la imagen para pantallas más pequeñas */
+    }
+
+
+    
+}

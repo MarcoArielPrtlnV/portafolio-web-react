@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+.presentation {
+  text-align: center;
+  padding: 50px;
+  background-color: #03346E;
+}
+
+.presentation h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.presentation p {
+  font-size: 1.2rem;
+}
+
+.about {
+  background-color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.about img {
+  border-radius: 50%;
+  max-width: 150px;
+}
+
+.portfolio {
+  background-color: #f4f4f4;
+  padding: 50px 0;
+  text-align: center;
+}
+
+
+
+.icon {
+  margin: 0 10px;
+  font-size: 2rem;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+}
+
+.card-body {
+  text-align: center;
+}
