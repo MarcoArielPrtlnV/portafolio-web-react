@@ -13,7 +13,7 @@ const Presentation = () => {
             id="home"
             initial={{ opacity: 0, x: -100 }} 
             whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 2 }} >
+            transition={{ duration: 1 }} >
 
             <div className="presentation-content" style={{marginTop: '100px'}}>
                 <div className="text-content">
