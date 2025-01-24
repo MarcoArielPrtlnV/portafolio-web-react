@@ -31,7 +31,7 @@ const Portfolio = () => {
 
                 {projects.map((project) => {
 
-                    if (project.id < 6) {
+                    if (project.id < 7) {
 
                         return (
 
