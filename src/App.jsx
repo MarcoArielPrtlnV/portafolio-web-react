@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { BsMoon, BsSun } from "react-icons/bs";
+import { motion } from "framer-motion";
 import Header from './components/Header';
 import Presentation from './components/Presentation';
 import About from './components/About';
@@ -15,7 +15,13 @@ const App = () => {
   return (
 
 
-    <div >
+    <motion.div
+    
+      initial={{ opacity: 0 }}  // Empieza invisible
+      animate={{ opacity: 1 }}  // Se vuelve visible
+      transition={{ duration: 1 }}  // Duración de la animación
+    
+    >
 
       <Header />
       <Presentation />
@@ -24,7 +30,7 @@ const App = () => {
       <Footer />
 
 
-    </div>
+    </motion.div>
 
   )
 }

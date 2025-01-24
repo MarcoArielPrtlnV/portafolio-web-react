@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Card, Button, Row, Col } from "react-bootstrap";
 import { FaHtml5, FaCss3Alt, FaJs, FaReact } from "react-icons/fa";
 import { FaGlobe, FaGithub } from "react-icons/fa";
+import { motion } from "framer-motion";
 import "../css/Portfolio.css";
 import errortPhoto from '../assets/images/icono-mv-developer.svg';
 
@@ -24,7 +25,12 @@ const Portfolio = () => {
 
 
     return (
-        <section className="portfolio" id="portfolio">
+        <motion.section 
+            className="portfolio" 
+            id="portfolio"
+            initial={{ opacity: 0, x: -100 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 2 }}>
 
             <h2 style={{marginTop: '50px', marginBottom: '30px'}}>Portafolio</h2>
             <Row className="justify-content-center">
@@ -137,7 +143,7 @@ const Portfolio = () => {
 
             </Row>
 
-        </section>
+        </motion.section>
     );
 };
 

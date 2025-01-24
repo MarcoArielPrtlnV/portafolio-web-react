@@ -1,4 +1,5 @@
 import React from "react";
+import {motion} from 'framer-motion';
 import { Button } from "react-bootstrap";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa"; 
 import "../css/Presentation.css";
@@ -7,7 +8,12 @@ import profilePhoto from '../assets/images/github-photo.jpg';
 const Presentation = () => {
     return (
 
-        <div className="presentation" id="home" >
+        <motion.section 
+            className="presentation" 
+            id="home"
+            initial={{ opacity: 0, x: -100 }} 
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 2 }} >
 
             <div className="presentation-content" style={{marginTop: '100px'}}>
                 <div className="text-content">
@@ -53,7 +59,7 @@ const Presentation = () => {
                 </div>
             </div>
 
-        </div>
+        </motion.section>
     );
 };
 

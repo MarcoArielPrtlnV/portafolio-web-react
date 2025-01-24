@@ -1,13 +1,25 @@
 import React from "react";
+import {motion} from "framer-motion";
 import { FaHtml5, FaCss3Alt, FaJs, FaReact } from "react-icons/fa"; // Importamos los íconos
 import "../css/About.css";
 import aboutPhoto from '../assets/images/Frente.png';
 import logoBuap from '../assets/images/Logo_de_la_BUAP.png';
 import aluraLogo from '../assets/images/alura_logo2.png';
 
+
 const About = () => {
     return (
-        <section className="about" id="about">
+        <motion.section 
+            className="about" 
+            id="about"
+            initial={{ opacity: 0, x: -100 }}  
+            whileInView={{ opacity: 1, x: 0 }}  
+            transition={{ duration: 2 }}>
+
+
+
+
+
             <h2 style={{marginTop: '50px', marginBottom: '30px'}}>Sobre mí</h2>
 
             <div className="about-content" style={{marginBottom: '30px'}}>
@@ -44,7 +56,11 @@ const About = () => {
                     </div>
                 </div>
             </div>
-        </section>
+
+
+
+
+        </motion.section>
     );
 };
 
