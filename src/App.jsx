@@ -19,7 +19,7 @@ const App = () => {
     
       initial={{ opacity: 0 }}  // Empieza invisible
       animate={{ opacity: 1 }}  // Se vuelve visible
-      transition={{ duration: 1 }}  // Duración de la animación
+      transition={{ duration: 2 }}  // Duración de la animación
     
     >
 
