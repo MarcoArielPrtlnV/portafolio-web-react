@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <footer className="footer">
             <Container className="text-center">
-                <p className="footer-text__copy">&copy; 2025 Mi Desarrollado por MV Developer</p>
+                <p className="footer-text__copy">&copy; 2025 Desarrollado por MV Developer</p>
 
                 <p className="contact-info">
                     <FaEnvelope className="icon-inline" /> marcoapretelin-igf@gmail.com
