@@ -1,0 +1,6 @@
+.navbar-toggler {
+  border: none; /* Elimina el borde */
+  background-color: transparent; /* Elimina el fondo */
+  outline: none; /* Elimina cualquier contorno de enfoque */
+  box-shadow: none; /* Elimina sombras */
+}

@@ -8,7 +8,27 @@
     margin: 0; /* Sin margen */
     font-size: 0.9rem; /* Tamaño de fuente más pequeño */
     color: #6EACDA;
+    margin-bottom: 1rem;
+  
   }
+
+
+  .contact-info {
+    font-size: 0.9rem; /* Tamaño de fuente más pequeño */
+    color: #6EACDA; /* Color de texto */
+    margin: 0.3rem 0; /* Espaciado vertical */
+    display: flex; /* Alinear contenido */
+    align-items: center; /* Centrar ícono y texto */
+    justify-content: center; /* Centrar todo */
+    gap: 0.5rem; /* Espaciado entre ícono y texto */
+}
+
+
+.icon-inline {
+  font-size: 1.1rem; /* Tamaño del ícono */
+  color: #6EACDA; /* Color del ícono */
+}
+
   
   .social-icons {
     margin-top: 0.5rem; /* Espaciado entre el texto y los íconos */
