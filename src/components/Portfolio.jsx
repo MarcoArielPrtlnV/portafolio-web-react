@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Card, Button, Row, Col } from "react-bootstrap";
 import { FaHtml5, FaCss3Alt, FaJs, FaReact } from "react-icons/fa";
 import { FaGlobe, FaGithub } from "react-icons/fa";

@@ -10,7 +10,7 @@ const Footer = () => {
                 <p className="footer-text__copy">&copy; 2025 Desarrollado por MV Developer</p>
 
                 <p className="contact-info">
-                    <FaEnvelope className="icon-inline" /> marcoapretelin-igf@gmail.com
+                    <FaEnvelope className="icon-inline" /> marcoapretelin.igf@gmail.com
                 </p>
                 <p className="contact-info">
                     <FaPhone className="icon-inline" /> +52 294 169 3526
