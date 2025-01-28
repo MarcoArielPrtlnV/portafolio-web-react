@@ -1,7 +1,7 @@
 import React from "react";
 import {motion} from 'framer-motion';
 import { Button } from "react-bootstrap";
-import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa"; 
+import { FaLinkedin, FaGithub, FaInstagram, FaFilePdf } from "react-icons/fa"; 
 import "../css/Presentation.css";
 import profilePhoto from '../assets/images/github-photo.jpg';
 
@@ -46,6 +46,15 @@ const Presentation = () => {
                             rel="noopener noreferrer"
                         >
                             <FaInstagram /> Instagram
+                        </Button>
+
+                        <Button
+                            variant="outline-secondary"
+                            href="https://drive.google.com/uc?export=download&id=1Qe6RU_mT1iieddpNVhQmHE9EmCdBa6xy"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <FaFilePdf /> Descargar CV
                         </Button>
                     </div>
                 </div>
