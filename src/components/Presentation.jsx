@@ -19,7 +19,7 @@ const Presentation = () => {
                 <div className="text-content">
                     <h1>¡Hola Soy Marco Vergara!</h1>
 
-                    <p>"Soy un desarrollador web frontend aficionado a la fotografía y con especialización HTML, CSS y Javascript; tengo una formación en ingeniería geofísica que me ha dotado de habilidades excepcionales en la resolución de problemas, participación en proyectos y trabajo en equipo."</p>
+                    <p>"Soy un desarrollador web frontend aficionado a la fotografía y con especialización HTML, CSS, Javascript y React; tengo una formación en ingeniería geofísica que me ha dotado de habilidades excepcionales en la resolución de problemas, participación en proyectos y trabajo en equipo."</p>
 
                     <div className="button-group">
 
@@ -50,7 +50,7 @@ const Presentation = () => {
 
                         <Button
                             variant="outline-secondary"
-                            href="https://drive.google.com/uc?export=download&id=1Qe6RU_mT1iieddpNVhQmHE9EmCdBa6xy"
+                            href="https://drive.google.com/uc?export=download&id=1Rw1ZT83WByowXZOhLpk_-wBlA62wiJHN"
                             target="_blank"
                             rel="noopener noreferrer"
                         >

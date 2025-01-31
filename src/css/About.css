@@ -26,22 +26,29 @@
   
   .skills {
     margin-bottom: 2rem;
+
   }
   
   .skills h3 {
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     color: #343a40;
   }
   
   .skills-icons {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 0.60rem;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
   }
   
   .skills-icons svg {
     color: #495057;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
   }
   
   .education {
@@ -50,18 +57,21 @@
   
   .education h3 {
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     color: #343a40;
   }
   
   .education-content {
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 0.9rem;
+    flex-wrap: wrap;
   }
   
   .education-item {
     text-align: center;
+    flex: 1 1 300px;
+    margin-bottom: 1rem;
   }
   
   .education-item img {
@@ -79,4 +89,58 @@
     color: #343a40;
     
   }
+
+
+
   
+  @media (max-width: 768px) {
+
+    .skills-icons {
+
+      gap: 1rem;
+    }
+
+
+  
+    .skills-icons svg {
+      width: 35px; 
+      height: 35px;
+    }
+
+    .education-content {
+        flex-direction: column; /* Apila los elementos de formación verticalmente */
+        align-items: center;
+    }
+
+    .education-item {
+        flex: 1 1 100%; /* Ocupa todo el ancho disponible en pantallas pequeñas */
+    }
+
+    .education-item img {
+        width: 120px; /* Reduce el tamaño de las imágenes en pantallas pequeñas */
+        height: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .skills-icons {
+
+      gap: 0.9rem;
+
+    }
+
+    .skills-icons svg {
+      width: 30px;
+      height: 30px;
+    }
+
+    .education-item img {
+        width: 100px; /* Reduce más el tamaño de las imágenes en pantallas muy pequeñas */
+        height: 100px;
+    }
+
+    .education-item p {
+        font-size: 0.9rem; /* Reduce el tamaño del texto en pantallas muy pequeñas */
+    }
+}

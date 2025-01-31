@@ -1,10 +1,13 @@
 import React from "react";
 import {motion} from "framer-motion";
-import { FaHtml5, FaCss3Alt, FaJs, FaReact } from "react-icons/fa"; // Importamos los íconos
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaBootstrap} from "react-icons/fa"; // Importamos los íconos
+import { SiVite } from "react-icons/si"; 
+import { BiLogoTypescript, BiLogoVisualStudio, BiLogoTailwindCss } from "react-icons/bi";
 import "../css/About.css";
 import aboutPhoto from '../assets/images/Frente.png';
 import logoBuap from '../assets/images/Logo_de_la_BUAP.png';
 import aluraLogo from '../assets/images/alura_logo2.png';
+
 
 
 const About = () => {
@@ -36,7 +39,13 @@ const About = () => {
                     <FaHtml5 size={40} />
                     <FaCss3Alt size={40} />
                     <FaJs size={40} />
+                    <BiLogoTypescript size={41} />
                     <FaReact size={40} />
+                    <SiVite size={40} />
+                    <FaBootstrap size={40} />
+                    <BiLogoTailwindCss size={40} />
+                    <FaGitAlt size={40} />
+                    <BiLogoVisualStudio size={40} />
                 </div>
             </div>
 
