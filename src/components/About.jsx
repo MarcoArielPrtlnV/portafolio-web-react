@@ -56,12 +56,14 @@ const About = () => {
                     <div className="education-item">
                         <img src={logoBuap} alt="Formación 1" style={{backgroundColor: 'white', borderRadius: '50%'}} />
                         <p style={{fontWeight: 'bold'}}>Ingeniero en Geofísica</p>
-                        <p>2015 - Benemérita Universidad Autónoma de Puebla</p>
+                        <p>2010-2015 </p>
+                        <p>Benemérita Universidad Autónoma de Puebla</p>
                     </div>
                     <div className="education-item alura-logo">
                         <img src={aluraLogo} alt="Formación 2" style={{borderRadius: '50%'}} />
                         <p style={{fontWeight: 'bold'}}>Formación Frontend Web Developer</p>
-                        <p>2025 - Alura, Oracle Next Education</p>
+                        <p>2024-2025</p>
+                        <p>Alura, Oracle Next Education</p>
                     </div>
                 </div>
             </div>
