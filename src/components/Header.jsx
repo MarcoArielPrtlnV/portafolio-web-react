@@ -1,7 +1,7 @@
 import { Navbar, Nav } from "react-bootstrap";
 import { useState } from "react";
 import '../css/Header.css';
-import logoImg from '../assets/images/logo-mv-developer.png';
+import logoImg from '../assets/images/logo-mv-developer_3.png';
 
 
 const Header = () => {
