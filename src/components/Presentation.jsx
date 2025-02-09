@@ -58,7 +58,7 @@ const Presentation = () => {
                         </Button>
 
                         <Button
-                            variant="outline-secondary"
+                            variant="outline-info"
                             href="https://drive.google.com/uc?export=download&id=1H9emNN4hTCvhKQTJ44UFsna8WQZ1JNWv"
                             target="_blank"
                             rel="noopener noreferrer"
