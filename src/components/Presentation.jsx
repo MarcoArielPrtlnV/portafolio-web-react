@@ -56,6 +56,16 @@ const Presentation = () => {
                         >
                             <FaFilePdf /> Descargar CV
                         </Button>
+
+                        <Button
+                            variant="outline-secondary"
+                            href="https://drive.google.com/uc?export=download&id=1H9emNN4hTCvhKQTJ44UFsna8WQZ1JNWv"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <FaFilePdf /> Download CV 
+                        </Button>
+                        
                     </div>
                 </div>
 
