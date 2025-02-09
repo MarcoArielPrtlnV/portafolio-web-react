@@ -36,6 +36,21 @@
     gap: 1rem; 
     justify-content: center;
 }
+
+.button-group button {
+    min-width: 150px; /* Ancho mínimo uniforme */
+    height: 45px; /* Altura fija */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem; /* Tamaño de fuente consistente */
+    padding: 0 1rem; /* Espaciado interno */
+}
+
+.button-group button svg {
+    margin-right: 0.5rem; /* Espacio entre el ícono y el texto */
+}
   
   .image-content {
     flex: 1;
