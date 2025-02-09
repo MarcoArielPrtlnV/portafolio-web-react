@@ -38,20 +38,12 @@
 }
 
 .button-group button {
-    min-width: 150px; /* Ancho mínimo uniforme */
-    height: 45px; /* Altura fija */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 1rem; /* Tamaño de fuente consistente */
-    padding: 0 1rem; /* Espaciado interno */
+    flex: 1; /* Hace que todos los botones ocupen el mismo espacio disponible */
+    min-width: 150px; /* Define un ancho mínimo para evitar que los botones sean demasiado pequeños */
+    text-align: center; /* Asegura que el texto e iconos estén centrados */
 }
 
-.button-group button svg {
-    margin-right: 0.5rem; /* Espacio entre el ícono y el texto */
-}
-  
+
   .image-content {
     flex: 1;
     display: flex;
@@ -63,6 +55,19 @@
     max-width: 400px;
     border-radius: 5%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 769px) {
+    .button-group {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .button-group button {
+        flex: 1; /* Todos los botones tendrán el mismo ancho */
+        white-space: nowrap; /* Evita que el texto se rompa en varias líneas */
+    }
 }
   
 
@@ -87,6 +92,11 @@
         flex-direction: column; /* Los botones en columna */
         gap: 1rem; /* Espacio entre botones */
 }
+
+.button-group button {
+    
+        width: 100%; /* Los botones ocupan todo el ancho disponible en móviles */
+    }
 
 .presentation-photo {
         max-width: 300px; /* Ajusta el tamaño de la imagen para pantallas más pequeñas */
