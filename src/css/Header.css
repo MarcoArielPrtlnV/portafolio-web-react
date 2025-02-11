@@ -6,6 +6,12 @@
 }
 
 
+.header__logo {
+  margin: auto; /* Centra horizontalmente */
+  display: block; /* Asegura que el logo sea un bloque centrado */
+}
+
+
 .eng-button {
   color: rgba(255, 255, 255, 0.55); /* Color inicial igual al de las letras del menú (dorado) */
   transition: color 0.3s ease-in-out; /* Transición suave para el cambio de color */
@@ -19,4 +25,13 @@
 .eng-button:hover {
   color: #FFFFFF; /* Cambia a blanco cuando el puntero pasa sobre el botón */
   background-color: transparent !important;
+}
+
+
+
+@media (max-width: 992px) {
+  /* Ajustes para pantallas pequeñas */
+  .navbar-brand {
+      transform: translateX(-10px); 
+  }
 }
