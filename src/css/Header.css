@@ -1,29 +1,29 @@
 .navbar-toggler {
-  border: none; /* Elimina el borde */
-  background-color: transparent; /* Elimina el fondo */
-  outline: none; /* Elimina cualquier contorno de enfoque */
-  box-shadow: none; /* Elimina sombras */
+  border: none; /* Elimino el borde */
+  background-color: transparent; /* Elimino el fondo */
+  outline: none; /* Elimino cualquier contorno de enfoque */
+  box-shadow: none; /* Elimino sombras */
 }
 
 
 .header__logo {
-  margin: auto; /* Centra horizontalmente */
-  display: block; /* Asegura que el logo sea un bloque centrado */
+  margin: auto; /* Centrar horizontalmente */
+  display: block; /* Asegurar que el logo sea un bloque centrado */
 }
 
 
 .eng-button {
   color: rgba(255, 255, 255, 0.55); /* Color inicial igual al de las letras del menú (dorado) */
   transition: color 0.3s ease-in-out; /* Transición suave para el cambio de color */
-  text-decoration: none; /* Elimina subrayado */
-  background-color: transparent  !important;; /* Asegura que no haya fondo */
-  border: none !important; /* Asegura que no haya bordes */
+  text-decoration: none; /* Eliminar subrayado */
+  background-color: transparent  !important;; /* Asegurar que no haya fondo */
+  border: none !important; /* Asegurar que no haya bordes */
   outline: none !important;
   box-shadow: none !important;
 }
 
 .eng-button:hover {
-  color: #FFFFFF; /* Cambia a blanco cuando el puntero pasa sobre el botón */
+  color: #FFFFFF; /* Cambiar a blanco cuando el puntero pasa sobre el botón */
   background-color: transparent !important;
 }
 
