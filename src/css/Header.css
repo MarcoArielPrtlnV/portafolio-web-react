@@ -32,6 +32,6 @@
 @media (max-width: 992px) {
   /* Ajustes para pantallas pequeñas */
   .navbar-brand {
-      transform: translateX(-10px); 
+      transform: translateX(-30px); 
   }
 }
