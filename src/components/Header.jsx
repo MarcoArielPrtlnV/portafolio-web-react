@@ -52,8 +52,7 @@ const Header = () => {
                 variant="link"
                 className="eng-button border-0 p-0"
                 style={{ position: 'fixed', right: '20px', top:'20px', zIndex: 101, cursor: 'pointer' }}
-                href="https://www.linkedin.com/in/marco-ariel-pretelin-vergara/"
-                target="_blank"
+                href="https://eng-web-portfolio-mv-developer-eight.vercel.app/"
                 rel="noopener noreferrer"
             >
                 
