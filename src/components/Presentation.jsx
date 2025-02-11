@@ -57,21 +57,14 @@ const Presentation = () => {
                             <FaFilePdf /> Descargar CV
                         </Button>
 
-                        <Button
-                            variant="outline-success"
-                            href="https://drive.google.com/uc?export=download&id=1H9emNN4hTCvhKQTJ44UFsna8WQZ1JNWv"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <FaFilePdf /> Download CV 
-                        </Button>
+
                         
                     </div>
                 </div>
 
                 <div className="image-content">
                     <img
-                        src={profilePhoto} // Cambia la ruta según la ubicación de tu foto
+                        src={profilePhoto} // Cambiar la ruta según la ubicación de tu foto
                         alt="Foto de Presentación"
                         className="presentation-photo"
                     />

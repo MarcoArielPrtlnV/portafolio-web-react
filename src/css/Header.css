@@ -4,3 +4,19 @@
   outline: none; /* Elimina cualquier contorno de enfoque */
   box-shadow: none; /* Elimina sombras */
 }
+
+
+.eng-button {
+  color: rgba(255, 255, 255, 0.55); /* Color inicial igual al de las letras del menú (dorado) */
+  transition: color 0.3s ease-in-out; /* Transición suave para el cambio de color */
+  text-decoration: none; /* Elimina subrayado */
+  background-color: transparent  !important;; /* Asegura que no haya fondo */
+  border: none !important; /* Asegura que no haya bordes */
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.eng-button:hover {
+  color: #FFFFFF; /* Cambia a blanco cuando el puntero pasa sobre el botón */
+  background-color: transparent !important;
+}
